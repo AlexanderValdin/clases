@@ -1,6 +1,7 @@
 import Impuestos from './impuestos.js';
 
 class Cliente {
+
   constructor(nombre){
     this.nombre= nombre;
     const impuesto = new Impuestos();
